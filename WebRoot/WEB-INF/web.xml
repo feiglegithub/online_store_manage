@@ -1,0 +1,221 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE web-app PUBLIC "-//Sun Microsystems, Inc.//DTD Web Application 2.3//EN" "http://java.sun.com/dtd/web-app_2_3.dtd">
+<web-app>
+  <servlet>
+    <servlet-name>Login</servlet-name>
+    <servlet-class>com.onlinestore.servlet.users.Login</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>GetPrimaryClassification</servlet-name>
+    <servlet-class>com.onlinestore.servlet.primaryclassification.GetAll</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>AddPrimaryClassification</servlet-name>
+    <servlet-class>com.onlinestore.servlet.primaryclassification.Add</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>DeletePrimaryClassification</servlet-name>
+    <servlet-class>com.onlinestore.servlet.primaryclassification.Delete</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>GetSecondClassification</servlet-name>
+    <servlet-class>com.onlinestore.servlet.secondclassification.GetAll</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>GetSecondClassificationByPrimaryClassification</servlet-name>
+    <servlet-class>com.onlinestore.servlet.secondclassification.GetSecondClassificationByPrimaryClassification</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>/secondClassification/Add</servlet-name>
+    <servlet-class>com.onlinestore.servlet.secondclassification.Add</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>/secondClassification/Delete</servlet-name>
+    <servlet-class>com.onlinestore.servlet.secondclassification.Delete</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>Upload</servlet-name>
+    <servlet-class>com.onlinestore.servlet.file.Upload</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>/file/Delete</servlet-name>
+    <servlet-class>com.onlinestore.servlet.file.Delete</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>/commodity/Add</servlet-name>
+    <servlet-class>com.onlinestore.servlet.commodity.Add</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>/commodity/GetAll</servlet-name>
+    <servlet-class>com.onlinestore.servlet.commodity.GetAll</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>/commodity/Delete</servlet-name>
+    <servlet-class>com.onlinestore.servlet.commodity.Delete</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>/commodity/GetByPrimaryClassification</servlet-name>
+    <servlet-class>com.onlinestore.servlet.commodity.GetByPrimaryClassification</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>/commodity/GetByPrimaryAndSecond</servlet-name>
+    <servlet-class>com.onlinestore.servlet.commodity.GetByPrimaryAndSecond</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>/commodity/GetById</servlet-name>
+    <servlet-class>com.onlinestore.servlet.commodity.GetById</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>/commodity/Update</servlet-name>
+    <servlet-class>com.onlinestore.servlet.commodity.Update</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>/commodity/GetByName</servlet-name>
+    <servlet-class>com.onlinestore.servlet.commodity.GetByName</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>/commodity/GetPagesByClassification2</servlet-name>
+    <servlet-class>com.onlinestore.servlet.commodity.GetPagesByClassification2</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>/commodity/GetPagesByClassification1</servlet-name>
+    <servlet-class>com.onlinestore.servlet.commodity.GetPagesByClassification1</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>/commodity/GetPages</servlet-name>
+    <servlet-class>com.onlinestore.servlet.commodity.GetPages</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>/commodity/GetRows</servlet-name>
+    <servlet-class>com.onlinestore.servlet.commodity.GetRows</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>/commodity/GetRowsByClassification1</servlet-name>
+    <servlet-class>com.onlinestore.servlet.commodity.GetRowsByClassification1</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>/commodity/GetRowsByClassification2</servlet-name>
+    <servlet-class>com.onlinestore.servlet.commodity.GetRowsByClassification2</servlet-class>
+  </servlet>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  <servlet-mapping>
+    <servlet-name>Login</servlet-name>
+    <url-pattern>/login</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>GetPrimaryClassification</servlet-name>
+        <url-pattern>/primaryClassification/getAll</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>AddPrimaryClassification</servlet-name>
+    <url-pattern>/primaryClassification/add</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>DeletePrimaryClassification</servlet-name>
+    <url-pattern>/primaryClassification/Delete</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>GetSecondClassification</servlet-name>
+    <url-pattern>/secondClassification/getAll</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>GetSecondClassificationByPrimaryClassification</servlet-name>
+    <url-pattern>/getSecondClassificationByPrimaryClassification</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>/secondClassification/Add</servlet-name>
+    <url-pattern>/secondClassification/add</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>/secondClassification/Delete</servlet-name>
+    <url-pattern>/secondClassification/Delete</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>Upload</servlet-name>
+    <url-pattern>/upload</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>/file/Delete</servlet-name>
+    <url-pattern>/file/Delete</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>/commodity/Add</servlet-name>
+    <url-pattern>/commodity/Add</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>/commodity/GetAll</servlet-name>
+    <url-pattern>/commodity/GetAll</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>/commodity/Delete</servlet-name>
+    <url-pattern>/commodity/Delete</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>/commodity/GetByPrimaryClassification</servlet-name>
+    <url-pattern>/commodity/GetByPrimaryClassification</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>/commodity/GetByPrimaryAndSecond</servlet-name>
+    <url-pattern>/commodity/GetByPrimaryAndSecond</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>/commodity/GetById</servlet-name>
+    <url-pattern>/commodity/GetById</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>/commodity/Update</servlet-name>
+    <url-pattern>/commodity/Update</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>/commodity/GetByName</servlet-name>
+    <url-pattern>/commodity/GetByName</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>/commodity/GetPagesByClassification2</servlet-name>
+    <url-pattern>/commodity/GetPagesByClassification2</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>/commodity/GetPagesByClassification1</servlet-name>
+    <url-pattern>/commodity/GetPagesByClassification1</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>/commodity/GetPages</servlet-name>
+    <url-pattern>/commodity/GetPages</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>/commodity/GetRows</servlet-name>
+    <url-pattern>/commodity/GetRows</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>/commodity/GetRowsByClassification1</servlet-name>
+    <url-pattern>/commodity/GetRowsByClassification1</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>/commodity/GetRowsByClassification2</servlet-name>
+    <url-pattern>/commodity/GetRowsByClassification2</url-pattern>
+  </servlet-mapping>
+
+</web-app>

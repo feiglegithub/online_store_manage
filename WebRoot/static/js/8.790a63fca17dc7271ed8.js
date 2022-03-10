@@ -1,0 +1,2 @@
+webpackJsonp([8],{Pfe3:function(e,t,r){"use strict";Object.defineProperty(t,"__esModule",{value:!0});var n={render:function(){var e=this.$createElement,t=this._self._c||e;return t("div",[t("router-view"),this._v(" "),t("van-tabbar",{attrs:{route:""}},[t("van-tabbar-item",{attrs:{replace:"",to:"/classify",icon:"bars"}},[this._v("分类")])],1)],1)},staticRenderFns:[]},a=r("VU/8")({mounted:function(){}},n,!1,null,null,null);t.default=a.exports}});
+//# sourceMappingURL=8.790a63fca17dc7271ed8.js.map
