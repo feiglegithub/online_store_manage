@@ -63,7 +63,6 @@ public class Add extends HttpServlet {
 		PrintWriter out = response.getWriter();
 
 		String name = request.getParameter("name");
-		System.out.println(name);
 		
 		JSONObject jsonObject = PrimaryClassificationService.addClassification(name);
 		
